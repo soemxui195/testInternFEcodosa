@@ -1,0 +1,106 @@
+/* register */
+#body{
+    background-image: url(../images/bg-2.jpg) ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.register-background {
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+}
+
+.register {
+    margin: 4em auto;
+    width: 60%;
+}
+
+.w3 {
+    float: right;
+    width: 48%;
+    /* margin-right: 4%; */
+    /* margin-top: calc(100vw*9/100); */
+    padding: 110px 0;
+}
+
+.signin-form {
+    background: #ffffff;
+    padding: 2em 2em;
+    text-align: center;
+}
+
+.signin-form h3 {
+    font-size: 2em;
+    color: #1ef0fd;
+    font-weight: 700;
+    margin-bottom: 1.5em;
+}
+
+.login-form {
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 1em 0 2.5em;
+}
+
+.signin-form input[type="text"],
+.signin-form input[type="password"] {
+    width: 92%;
+    padding: 1em 1em 1em 1em;
+    font-size: 0.8em;
+    margin: 1em 0;
+    outline: none;
+    color: #FFF;
+    border: none;
+    border-bottom: 2px solid #2f4ea9;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.signin-form input[type="text"] {
+    background: none;
+    display: block;
+}
+
+.signin-form input[type="password"] {
+    background: none;
+    display: block;
+}
+
+.tp {
+    margin: 0.7em 0 0;
+}
+
+.signin-form input[type="submit"] {
+    outline: none;
+    padding: 0.9em 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 1em;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #082630 50%,#25c9c7 100%);
+    box-shadow: 0 0 16px 0 rgba(41,188,253,.5);
+    border-radius: 2rem;
+    transition: .5s;
+}
+.signin-form input[type="submit"]:hover{
+    transition: all .5s ease-in-out !important;
+    background: linear-gradient(to left, #25c9c7 50%, #082630 100%);
+}
+.signin-form p a {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.clear {
+    clear: both;
+}
