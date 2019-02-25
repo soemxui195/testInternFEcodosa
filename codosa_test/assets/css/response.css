@@ -7,6 +7,9 @@
         font-size: 20px !important;
         line-height: 26px !important;
     }
+    #center{
+        display: none;
+    }
 }
 @media (max-width: 500px){
     .header{
@@ -97,6 +100,9 @@
     }
     #token_sale_06 .pricing_bottom {
         margin-top: -5px;
+    }
+    #center{
+        display: none;
     }
 }
 @media only screen and (max-width: 767px){
@@ -400,6 +406,9 @@
         height: 500px !important;
         width: auto !important;
     }
+    #center{
+        display: none;
+    }
 }
 
 /* man hinh ipad */
@@ -591,6 +600,9 @@
         float: inherit !important;
         width: 100% !important;
     }
+    #center{
+        display: none;
+    }
 }
 /* màn hình ipad pro*/
 @media only screen and (max-width: 1280px) and (min-width: 992px){ 
@@ -665,5 +677,8 @@
     .w3{
         float: inherit !important;
         width: 100% !important;
+    }
+    #center{
+        display: none;
     }
 }
