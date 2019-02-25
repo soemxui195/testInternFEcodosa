@@ -71,6 +71,14 @@
             </nav><!-- END NAVBAR -->
 
         </div>
+        <div id="center">
+            <div class = "lantern">
+                <div class = "outerLight"></div>
+                <div class = "lanternBody">
+                    <div class = "innerLight"></div>
+                </div>
+            </div>
+        </div>
         <!-- Banner -->
         <div class="container" style="z-index: 99;">
             <div class="row">
